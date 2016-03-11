@@ -1,7 +1,12 @@
 # WindowsExplorerExtensions
-e.g. right click context menu extension for rhash 
 
-###quickstart
+I've created a (windows) *rightMouseClick* **context menu** entry which does ~this 
+
+    rhash --sha256 file > file.sha256.txt
+    
+Intended to save a lot of time. Which it has to - because this here costed a lot of time. :-)
+
+###Quickstart
 
 (1) put .bat into the folder where rhash lives (can probably be improved with some PATH magic)
 
@@ -37,9 +42,11 @@ Happy to learn how to solve that.
 * See the REM lines of [rhash_toFile.bat](rhash_toFile.bat)
 * use the ``..echo_args.reg`` and  ``echo_args.bat`` for experiments with the args
 * To put ``pause`` is helps debugging, see [rhash_pause.bat](rhash_pause.bat)
-* Please extend rhash so this whole thing here becomes obsolete :-)
+* Create a version where the .bat file can live anywhere? Or best: No bat file at all (see below).
+* Perhaps remove the path from the output file, only the filename should stay.
+* Extend rhash.exe so this whole thing becomes obsolete :-) Suggestion: ``rhash.exe -f %1``
 
-### *Newsflash* v0.2.0 - without .bat file! 
+### *Newsflash* v0.2.1 - without .bat file! 
 I was able to go 3/4 of the way
 
     registry_context_menu_rhash_sha256_to__sha256.txt_.reg
