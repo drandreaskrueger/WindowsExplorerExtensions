@@ -39,7 +39,7 @@ Happy to learn how to solve that.
 * To put ``pause`` is helps debugging, see [rhash_pause.bat](rhash_pause.bat)
 * Please extend rhash so this whole thing here becomes obsolete :-)
 
-### *Newsflash* v0.2.0 - without .bat file!
+### *Newsflash* v0.2.0 - without .bat file! 
 I was able to go 3/4 of the way
 
     registry_context_menu_rhash_sha256_to__sha256.txt_.reg
