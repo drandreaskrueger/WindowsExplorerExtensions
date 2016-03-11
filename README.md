@@ -40,13 +40,13 @@ Happy to learn how to solve that.
 
 ### You
 * See the REM lines of [rhash_toFile.bat](rhash_toFile.bat)
-* use the ``..echo_args.reg`` and  ``echo_args.bat`` for experiments with the args
-* To put ``pause`` is helps debugging, see [rhash_pause.bat](rhash_pause.bat)
+* use the ``....echo_args.reg`` and  ``echo_args.bat`` for experiments with the args
+* Putting ``pause`` helps debugging, see [rhash_pause.bat](rhash_pause.bat)
 * Create a version where the .bat file can live anywhere? Or best: No bat file at all (see below).
 * Perhaps remove the path from the output file, only the filename should stay.
-* Extend rhash.exe so this whole thing becomes obsolete :-) Suggestion: ``rhash.exe -f %1``
+* Extend rhash.exe so the registry entry can be easier. Suggestion ``-f``-switch for ``rhash.exe -f %1``
 
-### *Newsflash* v0.2.1 - without .bat file! 
+### *Newsflash* v0.2.2 - without .bat file! 
 I was able to go 3/4 of the way
 
     registry_context_menu_rhash_sha256_to__sha256.txt_.reg
